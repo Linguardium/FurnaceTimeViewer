@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "mod.linguardium.furnacetimeviewer.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "AbstractFurnaceScreenHandlerAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "FurnaceScreenMixin"
+  ]
+}

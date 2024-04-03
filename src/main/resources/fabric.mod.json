@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "furnace-time-viewer",
+	"version": "${version}",
+	"name": "Furnace Time Viewer",
+	"description": "Show cooktime in furnace gui",
+	"authors": [
+		"Linguardium"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/furnace-time-viewer/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"mod.linguardium.furnacetimeviewer.FurnaceTimeViewer"
+		]
+	},
+	"mixins": [
+		"furnace-time-viewer.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.20",
+		"minecraft": "~1.19.3",
+		"java": ">=17"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
